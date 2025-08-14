@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fursa - Property Listings in Kenya</title>
+    <link rel="stylesheet" href="fursa.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Fursa</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#listings">Properties</a></li>
+                <li><a href="#agent">Agent</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Find Your Dream Property in Kenya</h1>
+        <p>Browse listings with immersive 360° tours</p>
+        <!-- search bar-->
+ <div class="search container">
+
+ <div class="search-box">
+    <h3>search properties for sale and to rent</h3>
+    <input type="text" class="search-input" placeholder="e.g. 3 bedroom house in Lavington,Nairobi">
+
+    <div class="search-options">
+        <button class="search-option active">For sale</button>
+        <button class="search-option">To rent</button>
+    </div>
+ </div>
+
+ </div>
+    </section>
+    
+
+    <!-- Property Listings -->
+     <div class="portal-container">
+  <!-- Main Sign-in Section -->
+  <section class="signin-section">
+    <p class="subheader">Save properties, create alerts and keep track of the enquiries you send to agents.</p>
+    
+    <div class="signin-box">
+      <h2>Sign in or create an account</h2>
+      <!-- Sign-in form would go here -->
+      <button class="primary-btn">Sign In</button>
+      <button class="secondary-btn">Create Account</button>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <div class="features-grid">
+    <!-- Feature 1 -->
+    <div class="feature-card">
+      <h3>Sold house prices</h3>
+      <p>Check what a home sold for plus photos, floorplans and local area insights.</p>
+      <a href="#" class="feature-link">Search house prices →</a>
+    </div>
+    
+    <!-- Feature 2 -->
+    <div class="feature-card">
+      <h3>Check how much you can borrow</h3>
+      <p>Check with no impact on your credit score and receive a result instantly.</p>
+      <a href="#" class="feature-link">Get a Mortgage in Principle →</a>
+    </div>
+    
+    <!-- Feature 3 -->
+    <div class="feature-card">
+      <h3>Property valuation</h3>
+      <p>If you're thinking about selling a property, invite a local estate agent to provide you an appraisal.</p>
+      <a href="#" class="feature-link">Find out more →</a>
+    </div>
+  </div>
+
+    <section id="listings" class="properties">
+        <h2>Featured Properties</h2>
+        <div class="property-card">
+            <h3>Luxury Apartment - Nairobi</h3>
+            <p>Modern 2-bedroom apartment in Westlands with panoramic views.</p>
+            <div class="property-images">
+            <img src="https://images.pexels.com/photos/2956511/pexels-photo-2956511.jpeg" alt="Luxury Apartment Living Room">
+            <img src="https://images.pexels.com/photos/1848599/pexels-photo-1848599.jpeg" alt="Luxury Apartment Kitchen">
+            <img src="https://images.pexels.com/photos/2280844/pexels-photo-2280844.jpeg" alt="Luxury Apartment Bedroom">
+        </div>
+
+            <div class="viewer">
+                <iframe src="https://momento360.com/e/u/your-360-link"
+                        frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="property-card">
+            <h3>Beach House - Mombasa</h3>
+            <p>Beautiful beachfront home with private access and stunning sunsets.</p>
+            <div class="property-images">
+            <img src="https://images.pexels.com/photos/7061659/pexels-photo-7061659.jpeg" alt="Luxury Apartment Living Room">
+            <img src="https://images.pexels.com/photos/1103808/pexels-photo-1103808.jpeg" alt="Luxury Apartment Kitchen">
+            <img src="https://images.pexels.com/photos/28594531/pexels-photo-28594531.jpeg" alt="Luxury Apartment Bedroom">
+        </div>
+
+            <div class="viewer">
+                <iframe src="https://momento360.com/e/u/your-360-link"
+                        frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agent Section -->
+    <section id="agent" class="agent">
+        <h2>Meet Our Agents</h2>
+        <div class="agent-profile">
+            <img src="https://via.placeholder.com/150" alt="Agent Photo">
+            <h3>John Mwangi</h3>
+            <p>Expert in Nairobi luxury apartments and urban living spaces.</p>
+        </div>
+        <div class="agent-profile">
+            <img src="https://via.placeholder.com/150" alt="Agent Photo">
+            <h3>Sarah Wambui</h3>
+            <p>Specialist in coastal properties and holiday homes.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fursa. All rights reserved.</p>
+    </footer>
+
+    <script src="fursa.js"></script>
+</body>
+</html>

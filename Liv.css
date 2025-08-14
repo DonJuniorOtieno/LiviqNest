@@ -1,0 +1,403 @@
+body {
+    font-family: Arial, sans-serif, Segoe UI, Roboto, Helvetica Neue;
+    margin: 0;
+    background-color:ghostwhite;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+
+
+}
+
+header {
+    background: #1a73e8;
+    color:navy;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+}
+
+nav a {
+    color:navy;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('https://images.pexels.com/photos/1546166/pexels-photo-1546166.jpeg') no-repeat center/cover;
+    color:rgb(208, 60, 11);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.properties {
+    padding: 40px;
+}
+
+.property-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.viewer iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.agent {
+    padding: 40px;
+    background: grey;
+}
+
+.agent-profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.agent-profile img {
+    border-radius: 50%;
+}
+
+.contact {
+    padding: 40px;
+    background: lightskyblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background: #1a73e8;
+    color: navy;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background: grey;
+    color:beige;
+    padding: 10px;
+}
+
+/* Property Images Styling */
+.property-images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    overflow-x: auto; /* Allows horizontal scrolling if many images */
+}
+
+.property-images img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+    .property-images img {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .search-container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+        
+        .search-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .search-input {
+            width: 100%;
+            max-width: 500px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        
+        .search-input::placeholder {
+            color: #999;
+        }
+        
+        .search-options {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .search-option {
+            padding: 10px 20px;
+            background: #f5f5f5;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .search-option.active {
+            background: #0066cc;
+            color: white;
+        }
+        
+        .divider {
+            border-top: 1px solid #eee;
+            margin: 30px 0;
+        }
+        
+        .account-cta {
+            margin-top: 20px;
+        }
+        
+        .account-link {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.2rem;
+            }
+            
+            .search-options {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+.portal-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Sign-in Section */
+.signin-section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.signin-section h1 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.subheader {
+  color: #7f8c8d;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.signin-box {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+}
+
+.signin-box h2 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.primary-btn, .secondary-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+.primary-btn:hover {
+  background-color: #2980b9;
+}
+
+.secondary-btn {
+  background-color: white;
+  color: #3498db;
+  border: 1px solid #3498db;
+}
+
+.secondary-btn:hover {
+  background-color: #f8f9fa;
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.feature-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+  color: #2c3e50;
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.feature-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+.feature-link:hover {
+  text-decoration: underline;
+}
+
+.feature-link::after {
+  content: "→";
+  margin-left: 5px;
+  transition: transform 0.3s ease;
+}
+
+.feature-link:hover::after {
+  transform: translateX(3px);
+}
+
+/* Search Bar */
+.search-bar {
+  max-width: 600px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 30px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 2px 12px rgba(52, 152, 219, 0.2);
+}
+
+.search-bar button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .signin-section {
+    padding: 30px 20px;
+  }
+  
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+}
